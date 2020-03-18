@@ -184,5 +184,6 @@ class GraphConvolution(Layer):
         # bias
         if self.bias:
             output += self.vars['bias']
+            print(output)
 
         return self.act(output)

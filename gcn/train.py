@@ -55,6 +55,7 @@ placeholders = {
     'num_features_nonzero': tf.placeholder(tf.int32)  # helper variable for sparse dropout
 }
 
+
 # Create model
 model = model_func(placeholders, input_dim=features[2][1], logging=True)
 
